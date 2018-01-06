@@ -1,0 +1,6 @@
+framework module Pods_TiwallSwiftSDK_Example {
+  umbrella header "Pods-TiwallSwiftSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

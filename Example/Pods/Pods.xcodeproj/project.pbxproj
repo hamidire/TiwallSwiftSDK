@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CD99F9049CF965C4293E1C54054D5E3 /* Pods-TiwallSwiftSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C99D0E6B2A04E0F6746909C656AA06 /* Pods-TiwallSwiftSDK_Example-dummy.m */; };
+		2AF35159C247EAA6FE9A5A763255EC77 /* Pods-TiwallSwiftSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A839E0CE6D0E7317878DFECC09048E4 /* Pods-TiwallSwiftSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35AFA353CBDA3F38E29F253E6A59F252 /* TiwallSwiftSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6734A63EDFF87ACCC09A3149D6EF40 /* TiwallSwiftSDK-dummy.m */; };
+		51A5146756109F74B9916D3F777012AE /* Pods-TiwallSwiftSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BEAB3CC142A57CB33FE67B3FEE47A4 /* Pods-TiwallSwiftSDK_Tests-dummy.m */; };
+		74FD609E0740D0F1246CF600EF2DACCD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ED60459B5191985C918D0EEC5FD14D /* ReplaceMe.swift */; };
+		A50AF8F57EE3C3EC6AF702F3DBE96BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B936DA12335D034B28192FAB7FFA8308 /* TiwallSwiftSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F93280418B1D9BAA19DE0BF954CA01 /* TiwallSwiftSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CC2D5EF02530196E3E4A771883FD08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EFC87A8770A062DFF7B736CD2FE73CDA /* Pods-TiwallSwiftSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC8DAD0B868F79058FF0D77FED92608 /* Pods-TiwallSwiftSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F696DBB44BAF8DAD0C481D5E1D4C15C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F69879731AF5D3CBBA4898B83126CA27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0460D22FEFCE057819FB6182A5F60D00;
+			remoteInfo = TiwallSwiftSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B48B45DF7EF7467CB54A8626D6B7F96 /* TiwallSwiftSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TiwallSwiftSDK.xcconfig; sourceTree = "<group>"; };
+		149B2C70B5196449D849D34BEDB55704 /* Pods-TiwallSwiftSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiwallSwiftSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		19ED60459B5191985C918D0EEC5FD14D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TiwallSwiftSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1E033345B591AC3EA043F6472565AC71 /* Pods-TiwallSwiftSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiwallSwiftSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27F93280418B1D9BAA19DE0BF954CA01 /* TiwallSwiftSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TiwallSwiftSDK-umbrella.h"; sourceTree = "<group>"; };
+		2D6734A63EDFF87ACCC09A3149D6EF40 /* TiwallSwiftSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TiwallSwiftSDK-dummy.m"; sourceTree = "<group>"; };
+		317222B91D17801A2611EA4CF5BE5DC8 /* Pods-TiwallSwiftSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TiwallSwiftSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A839E0CE6D0E7317878DFECC09048E4 /* Pods-TiwallSwiftSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TiwallSwiftSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3C24F4B23AE9DA35A2632B4650F6BE51 /* TiwallSwiftSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TiwallSwiftSDK-prefix.pch"; sourceTree = "<group>"; };
+		43FA85CCA03426D610C3A7EA8A7D7282 /* Pods-TiwallSwiftSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiwallSwiftSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55BEAB3CC142A57CB33FE67B3FEE47A4 /* Pods-TiwallSwiftSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TiwallSwiftSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		59142CBF47B764F83DC07813DBDDB742 /* Pods-TiwallSwiftSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TiwallSwiftSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		5D5C7EEDA46AF61BD9D923DB8D5E6716 /* Pods-TiwallSwiftSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TiwallSwiftSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D9D2F4B40AA8CA294A37745735E2EC8 /* Pods_TiwallSwiftSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TiwallSwiftSDK_Tests.framework; path = "Pods-TiwallSwiftSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC8DAD0B868F79058FF0D77FED92608 /* Pods-TiwallSwiftSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TiwallSwiftSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		91C99D0E6B2A04E0F6746909C656AA06 /* Pods-TiwallSwiftSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TiwallSwiftSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A9E9AA2F32176E005C91D92B7D9862 /* Pods-TiwallSwiftSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiwallSwiftSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		9760230C3772C320D83552FAE0556084 /* TiwallSwiftSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TiwallSwiftSDK.framework; path = TiwallSwiftSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9762DC42BB5B685B0B02DA2A56FE9718 /* Pods-TiwallSwiftSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TiwallSwiftSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A54F0A7F62E3D4B77136FED8F92CFAEF /* Pods-TiwallSwiftSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TiwallSwiftSDK_Example.modulemap"; sourceTree = "<group>"; };
+		ABB2CAE944CCE87FEEC399F2B2A6F6F0 /* Pods-TiwallSwiftSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiwallSwiftSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		B469E964C59F2DEC35A43323DDC3AC94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8D74066B0411EB39E4AF7AD143E0DC /* TiwallSwiftSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TiwallSwiftSDK.modulemap; sourceTree = "<group>"; };
+		C33294F8291CDB9F7B6180FD0DE7820D /* Pods-TiwallSwiftSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiwallSwiftSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7268720EDAC239543E5BCD2C05FB1EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA53FB52700C58DB4B02E062A15D8896 /* Pods-TiwallSwiftSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiwallSwiftSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF327F0D6C24EF9DE25D0D34A17EB0A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF66F14695CD1BF4F1AF61CFF4EDBB8 /* Pods_TiwallSwiftSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TiwallSwiftSDK_Example.framework; path = "Pods-TiwallSwiftSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B4B0E907296DB7AF5C164B65E3C7FC /* Pods-TiwallSwiftSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TiwallSwiftSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FEE0840AFD98C064900320A59EAABBB0 /* Pods-TiwallSwiftSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TiwallSwiftSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21C83DD3DDD373F322FBB3CFE1DBCCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50AF8F57EE3C3EC6AF702F3DBE96BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760A58E35E546657330A4448A6396079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F696DBB44BAF8DAD0C481D5E1D4C15C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986689ABB022713B5BE564804D101109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CC2D5EF02530196E3E4A771883FD08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1577947FE55A43F68CBF8BA21216E9EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF66F14695CD1BF4F1AF61CFF4EDBB8 /* Pods_TiwallSwiftSDK_Example.framework */,
+				6D9D2F4B40AA8CA294A37745735E2EC8 /* Pods_TiwallSwiftSDK_Tests.framework */,
+				9760230C3772C320D83552FAE0556084 /* TiwallSwiftSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F45AE0FE252C7A9649B23053ECF13B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A789055E0E32D8C70186132BA73C661F /* TiwallSwiftSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		428640A5A0B64E9980894C860039E8DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B469E964C59F2DEC35A43323DDC3AC94 /* Info.plist */,
+				BE8D74066B0411EB39E4AF7AD143E0DC /* TiwallSwiftSDK.modulemap */,
+				0B48B45DF7EF7467CB54A8626D6B7F96 /* TiwallSwiftSDK.xcconfig */,
+				2D6734A63EDFF87ACCC09A3149D6EF40 /* TiwallSwiftSDK-dummy.m */,
+				3C24F4B23AE9DA35A2632B4650F6BE51 /* TiwallSwiftSDK-prefix.pch */,
+				27F93280418B1D9BAA19DE0BF954CA01 /* TiwallSwiftSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TiwallSwiftSDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				31F45AE0FE252C7A9649B23053ECF13B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1577947FE55A43F68CBF8BA21216E9EC /* Products */,
+				CDC2C6CF68D905E7863B4D77E1BF1CC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A470B5D5769CEBB398CDEA341FF4F4 /* Pods-TiwallSwiftSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C7268720EDAC239543E5BCD2C05FB1EE /* Info.plist */,
+				A54F0A7F62E3D4B77136FED8F92CFAEF /* Pods-TiwallSwiftSDK_Example.modulemap */,
+				9762DC42BB5B685B0B02DA2A56FE9718 /* Pods-TiwallSwiftSDK_Example-acknowledgements.markdown */,
+				5D5C7EEDA46AF61BD9D923DB8D5E6716 /* Pods-TiwallSwiftSDK_Example-acknowledgements.plist */,
+				91C99D0E6B2A04E0F6746909C656AA06 /* Pods-TiwallSwiftSDK_Example-dummy.m */,
+				FEE0840AFD98C064900320A59EAABBB0 /* Pods-TiwallSwiftSDK_Example-frameworks.sh */,
+				ABB2CAE944CCE87FEEC399F2B2A6F6F0 /* Pods-TiwallSwiftSDK_Example-resources.sh */,
+				6EC8DAD0B868F79058FF0D77FED92608 /* Pods-TiwallSwiftSDK_Example-umbrella.h */,
+				CA53FB52700C58DB4B02E062A15D8896 /* Pods-TiwallSwiftSDK_Example.debug.xcconfig */,
+				F2B4B0E907296DB7AF5C164B65E3C7FC /* Pods-TiwallSwiftSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-TiwallSwiftSDK_Example";
+			path = "Target Support Files/Pods-TiwallSwiftSDK_Example";
+			sourceTree = "<group>";
+		};
+		A789055E0E32D8C70186132BA73C661F /* TiwallSwiftSDK */ = {
+			isa = PBXGroup;
+			children = (
+				19ED60459B5191985C918D0EEC5FD14D /* ReplaceMe.swift */,
+				428640A5A0B64E9980894C860039E8DB /* Support Files */,
+			);
+			name = TiwallSwiftSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC2C6CF68D905E7863B4D77E1BF1CC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2A470B5D5769CEBB398CDEA341FF4F4 /* Pods-TiwallSwiftSDK_Example */,
+				FD305B137D3F9B511C6F6B8BD2AD13AE /* Pods-TiwallSwiftSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD305B137D3F9B511C6F6B8BD2AD13AE /* Pods-TiwallSwiftSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF327F0D6C24EF9DE25D0D34A17EB0A2 /* Info.plist */,
+				59142CBF47B764F83DC07813DBDDB742 /* Pods-TiwallSwiftSDK_Tests.modulemap */,
+				317222B91D17801A2611EA4CF5BE5DC8 /* Pods-TiwallSwiftSDK_Tests-acknowledgements.markdown */,
+				43FA85CCA03426D610C3A7EA8A7D7282 /* Pods-TiwallSwiftSDK_Tests-acknowledgements.plist */,
+				55BEAB3CC142A57CB33FE67B3FEE47A4 /* Pods-TiwallSwiftSDK_Tests-dummy.m */,
+				149B2C70B5196449D849D34BEDB55704 /* Pods-TiwallSwiftSDK_Tests-frameworks.sh */,
+				96A9E9AA2F32176E005C91D92B7D9862 /* Pods-TiwallSwiftSDK_Tests-resources.sh */,
+				3A839E0CE6D0E7317878DFECC09048E4 /* Pods-TiwallSwiftSDK_Tests-umbrella.h */,
+				1E033345B591AC3EA043F6472565AC71 /* Pods-TiwallSwiftSDK_Tests.debug.xcconfig */,
+				C33294F8291CDB9F7B6180FD0DE7820D /* Pods-TiwallSwiftSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-TiwallSwiftSDK_Tests";
+			path = "Target Support Files/Pods-TiwallSwiftSDK_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34C4E7C4784E7DE17FB3E20D55FC5195 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC87A8770A062DFF7B736CD2FE73CDA /* Pods-TiwallSwiftSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F2CE1F685D8A8E174ED824827DB7FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B936DA12335D034B28192FAB7FFA8308 /* TiwallSwiftSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970BD62910B608F9C580DE9DE9D8E173 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF35159C247EAA6FE9A5A763255EC77 /* Pods-TiwallSwiftSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0460D22FEFCE057819FB6182A5F60D00 /* TiwallSwiftSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5AC9C03E108EF3F65240A9C9C0F0AD /* Build configuration list for PBXNativeTarget "TiwallSwiftSDK" */;
+			buildPhases = (
+				71A69543FB737A36527C178A5585990F /* Sources */,
+				986689ABB022713B5BE564804D101109 /* Frameworks */,
+				48F2CE1F685D8A8E174ED824827DB7FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiwallSwiftSDK;
+			productName = TiwallSwiftSDK;
+			productReference = 9760230C3772C320D83552FAE0556084 /* TiwallSwiftSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE3D05FF6522436D10DE24B3B27A89B9 /* Pods-TiwallSwiftSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D91B858F2412B40142419BAD6E93455 /* Build configuration list for PBXNativeTarget "Pods-TiwallSwiftSDK_Example" */;
+			buildPhases = (
+				7360C95DBDAD839C8BB2544B991D0DA2 /* Sources */,
+				21C83DD3DDD373F322FBB3CFE1DBCCB1 /* Frameworks */,
+				34C4E7C4784E7DE17FB3E20D55FC5195 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3301D85B01C394D2E9C1ABDE067D430 /* PBXTargetDependency */,
+			);
+			name = "Pods-TiwallSwiftSDK_Example";
+			productName = "Pods-TiwallSwiftSDK_Example";
+			productReference = EDF66F14695CD1BF4F1AF61CFF4EDBB8 /* Pods_TiwallSwiftSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D65C8F0F8AF99E5E906C1C49D3EDC491 /* Pods-TiwallSwiftSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80042143C6A4966C9CD716980964A35 /* Build configuration list for PBXNativeTarget "Pods-TiwallSwiftSDK_Tests" */;
+			buildPhases = (
+				20D9F8205C0514D335FFDEE831E80577 /* Sources */,
+				760A58E35E546657330A4448A6396079 /* Frameworks */,
+				970BD62910B608F9C580DE9DE9D8E173 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TiwallSwiftSDK_Tests";
+			productName = "Pods-TiwallSwiftSDK_Tests";
+			productReference = 6D9D2F4B40AA8CA294A37745735E2EC8 /* Pods_TiwallSwiftSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1577947FE55A43F68CBF8BA21216E9EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3D05FF6522436D10DE24B3B27A89B9 /* Pods-TiwallSwiftSDK_Example */,
+				D65C8F0F8AF99E5E906C1C49D3EDC491 /* Pods-TiwallSwiftSDK_Tests */,
+				0460D22FEFCE057819FB6182A5F60D00 /* TiwallSwiftSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D9F8205C0514D335FFDEE831E80577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5146756109F74B9916D3F777012AE /* Pods-TiwallSwiftSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A69543FB737A36527C178A5585990F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FD609E0740D0F1246CF600EF2DACCD /* ReplaceMe.swift in Sources */,
+				35AFA353CBDA3F38E29F253E6A59F252 /* TiwallSwiftSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7360C95DBDAD839C8BB2544B991D0DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD99F9049CF965C4293E1C54054D5E3 /* Pods-TiwallSwiftSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3301D85B01C394D2E9C1ABDE067D430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TiwallSwiftSDK;
+			target = 0460D22FEFCE057819FB6182A5F60D00 /* TiwallSwiftSDK */;
+			targetProxy = F69879731AF5D3CBBA4898B83126CA27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35A4321BA255692E0AE69D731889E576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B4B0E907296DB7AF5C164B65E3C7FC /* Pods-TiwallSwiftSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Example/Pods-TiwallSwiftSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TiwallSwiftSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81386077F04DC31AE1534D5AFAD231EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA53FB52700C58DB4B02E062A15D8896 /* Pods-TiwallSwiftSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Example/Pods-TiwallSwiftSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TiwallSwiftSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A62DECD5DDCFDEA82AE23F87693D99E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B48B45DF7EF7467CB54A8626D6B7F96 /* TiwallSwiftSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TiwallSwiftSDK/TiwallSwiftSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TiwallSwiftSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TiwallSwiftSDK/TiwallSwiftSDK.modulemap";
+				PRODUCT_NAME = TiwallSwiftSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B77353C40EB567DF08610072C2454F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33294F8291CDB9F7B6180FD0DE7820D /* Pods-TiwallSwiftSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Tests/Pods-TiwallSwiftSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TiwallSwiftSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6A8C0413029AFA03F7FA092CCDF89AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B48B45DF7EF7467CB54A8626D6B7F96 /* TiwallSwiftSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TiwallSwiftSDK/TiwallSwiftSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TiwallSwiftSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TiwallSwiftSDK/TiwallSwiftSDK.modulemap";
+				PRODUCT_NAME = TiwallSwiftSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEF9CC56369A36BE627786A0FBBD405D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E033345B591AC3EA043F6472565AC71 /* Pods-TiwallSwiftSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TiwallSwiftSDK_Tests/Pods-TiwallSwiftSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TiwallSwiftSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D91B858F2412B40142419BAD6E93455 /* Build configuration list for PBXNativeTarget "Pods-TiwallSwiftSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81386077F04DC31AE1534D5AFAD231EA /* Debug */,
+				35A4321BA255692E0AE69D731889E576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5AC9C03E108EF3F65240A9C9C0F0AD /* Build configuration list for PBXNativeTarget "TiwallSwiftSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6A8C0413029AFA03F7FA092CCDF89AB /* Debug */,
+				A62DECD5DDCFDEA82AE23F87693D99E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80042143C6A4966C9CD716980964A35 /* Build configuration list for PBXNativeTarget "Pods-TiwallSwiftSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF9CC56369A36BE627786A0FBBD405D /* Debug */,
+				B77353C40EB567DF08610072C2454F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

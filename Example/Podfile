@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TiwallSwiftSDK_Example' do
+  pod 'TiwallSwiftSDK', :path => '../'
+
+  target 'TiwallSwiftSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
