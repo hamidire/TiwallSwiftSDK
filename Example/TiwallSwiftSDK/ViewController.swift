@@ -14,11 +14,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("hi")
-        var temp = RequestManager()
-        temp.request(url: "http://api.tiwall.com/v2/pages/categories?mode=ticket_store", type: RequestManager.ReqType.get, cacheFlag: false, completion: { (response, error) in
-            print("ViewController:viewDidLoad:request")
-            print(response)
-        })
+        let temp = PageAgent()
+        temp.getList(params: ["":""]) { (models, meta, err) in
+            print(models?.count)
+        }
+//        temp.request(url: "http://api.tiwall.com/v2/pages/categories?mode=ticket_store", type: RequestManager.ReqType.get, cacheFlag: false, completion: { (response, error) in
+//            print("ViewController:viewDidLoad:request")
+//            print(response)
+//        })
         // Do any additional setup after loading the view, typically from a nib.
     }
 

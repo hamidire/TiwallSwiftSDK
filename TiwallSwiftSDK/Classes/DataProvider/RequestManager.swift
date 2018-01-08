@@ -19,7 +19,7 @@ public class RequestManager {
             let ca = CloudAgent()
             if type == ReqType.get{
                 ca.get(url: url, completion: { (response, error) in
-                    print("RequestManager:request:start")
+                    print("RequestManager:request:start:")
                     completion(response,error)
                 })
             }else if type == ReqType.post{

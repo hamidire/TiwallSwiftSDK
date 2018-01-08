@@ -12,7 +12,7 @@ public class CloudAgent {
     }
     public func get(url: String,completion : @escaping (_ response : Any?,_ error: String?)->()){
         Alamofire.request(url).responseJSON { response in
-            print("CloudAgent:get:start")
+            print("CloudAgent:get:start:url\(url)")
             
             if let json = response.result.value {
                 completion(json, nil)
