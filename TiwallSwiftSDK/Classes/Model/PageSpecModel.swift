@@ -6,17 +6,17 @@
 //
 
 import Foundation
-class PageSpecModel {
-    var duration : Int?
-    var director : ChannelSummaryListModel?
-    var cast : ChannelSummaryListModel?
-    var writer : ChannelSummaryListModel?
-    var producer : ChannelSummaryListModel?
-    var translator : ChannelSummaryListModel?
-    var designer : ChannelSummaryListModel?
-    var dramaturge : ChannelSummaryListModel?
-    var othercast : ChannelSummaryListModel?
-    var min_age : Int?
+public class PageSpecModel {
+    public var duration : Int?
+    public var director : ChannelSummaryListModel?
+    public var cast : ChannelSummaryListModel?
+    public var writer : ChannelSummaryListModel?
+    public var producer : ChannelSummaryListModel?
+    public var translator : ChannelSummaryListModel?
+    public var designer : ChannelSummaryListModel?
+    public var dramaturge : ChannelSummaryListModel?
+    public var othercast : ChannelSummaryListModel?
+    public var min_age : Int?
     static func parseSpec(rawJson: Dictionary<String,Any>)->PageSpecModel{
         let model = PageSpecModel()
         if let temp = rawJson["duration"] as? Int{

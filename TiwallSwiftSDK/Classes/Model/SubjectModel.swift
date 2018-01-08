@@ -6,10 +6,10 @@
 //
 
 import Foundation
-class SubjectModel{
-    var id : Int?
-    var urn : String?
-    var parent_id : Int?
+public class SubjectModel{
+    public var id : Int?
+    public var urn : String?
+    public var parent_id : Int?
     static func parse(rawJson: Dictionary<String,Any>)->SubjectModel{
         let model = SubjectModel()
         if let temp = rawJson["id"] as? Int{

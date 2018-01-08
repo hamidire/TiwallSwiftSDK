@@ -24,7 +24,7 @@ func convertDictToArrayValues(dict : Dictionary<String,String>)->[String]{
 func createPersianNumberFromString(_ str : String)->String{
     var resultStr = str
     let largeNumber = resultStr
-    var numberFormatter = NumberFormatter()
+    let numberFormatter = NumberFormatter()
     numberFormatter.numberStyle = NumberFormatter.Style.decimal
     if let number = Int(largeNumber){
         resultStr = numberFormatter.string(from: NSNumber(value: number))!

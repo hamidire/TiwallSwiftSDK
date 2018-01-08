@@ -6,10 +6,10 @@
 //
 
 import Foundation
-class ImageModel {
-    var thumb_url : String?
-    var normal_url : String?
-    var big_url : String?
+public class ImageModel {
+    public var thumb_url : String?
+    public var normal_url : String?
+    public var big_url : String?
     static func parse(rawJson: Dictionary<String,Any>)->ImageModel{
         let model = ImageModel()
         if let temp = rawJson["thumb_url"] as? String{

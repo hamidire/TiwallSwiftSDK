@@ -7,9 +7,9 @@
 
 import Foundation
 public class PageModel {
-    var id : Int?
-    var urn : String?
-    var type : PageType?
+    public var id : Int?
+    public var urn : String?
+    public var type : PageType?
     public enum PageType:String {
         case performance = "performance"
         case exhibition = "exhibition"
@@ -28,14 +28,14 @@ public class PageModel {
         case event = "event"
         case product = "product"
     }
-    var behavior : PageBehaviors?
-    var title : String?
-    var title_prefix : String?
-    var price : Price?
-    var discount : Discount?
-    var spec : PageSpecModel?
-    var has : Has?
-    var sale : SaleModel?
+    public var behavior : PageBehaviors?
+    public var title : String?
+    public var title_prefix : String?
+    public var price : Price?
+    public var discount : Discount?
+    public var spec : PageSpecModel?
+    public var has : Has?
+    public var sale : SaleModel?
     public enum SaleMethod:String {
         case event = "event"
         case event_seat = "event_seat"
@@ -48,14 +48,14 @@ public class PageModel {
         case ticket = "ticket"
         case receipt_station = "receipt_station"
     }
-    var subject : SubjectModel?
-    var image : ImageModel?
-    var cover : ImageModel?
-    var parent_id : Int?
-    var promo_desc : String?
-    var short_desc : String?
-    var desc : String?
-    var url : String?
+    public var subject : SubjectModel?
+    public var image : ImageModel?
+    public var cover : ImageModel?
+    public var parent_id : Int?
+    public var promo_desc : String?
+    public var short_desc : String?
+    public var desc : String?
+    public var url : String?
     static func parse(rawJson: Dictionary<String,Any>)->PageModel{
         let model = PageModel()
         if let temp = rawJson["id"] as? Int{
@@ -86,7 +86,12 @@ public class PageModel {
             model.discount = Discount.parse(rawJson: temp)
         }
         if let temp = rawJson["spec"] as? Dictionary<String,Any>{
-            model.spec = PageSpecModel.parseSpec(rawJson: temp)
+            switch model.type{
+            case self.PageType.event? :
+                model.spec = EventSpecModel.parseSpec(rawJson: temp)
+            default :
+                model.spec = PageSpecModel.parseSpec(rawJson: temp)
+            }
         }
         if let temp = rawJson["has"] as? Dictionary<String,Any>{
             model.has = Has.parse(rawJson: temp)
@@ -123,17 +128,16 @@ public class PageModel {
     static func parseArray(jsonArr: [Dictionary<String,Any>])->[PageModel]{
         var models = [PageModel]()
         for item in jsonArr{
-            if let json = item as? Dictionary<String,Any>{
-                let model = PageModel.parse(rawJson: json)
-                models.append(model)
-            }
+            let model = PageModel.parse(rawJson: item)
+            models.append(model)
+            
         }
         return models
     }
-    class Price {
-        var text : String?
-        var desc : String?
-        var list : [Int]?
+    public class Price {
+        public var text : String?
+        public var desc : String?
+        public var list : [Int]?
         static func parse(rawJson: Dictionary<String,Any>)->Price{
             let model = Price()
             if let temp = rawJson["text"] as? String{
@@ -145,8 +149,8 @@ public class PageModel {
             return model
         }
     }
-    class Discount {
-        var text : String?
+    public class Discount {
+        public var text : String?
         static func parse(rawJson: Dictionary<String,Any>)->Discount{
             let model = Discount()
             if let temp = rawJson["text"] as? String{
@@ -156,14 +160,14 @@ public class PageModel {
         }
     }
     
-    class Has{
-        var sale : Bool?
-        var discount : Bool?
-        var child_pages : Bool?
-        var news : Bool?
-        var photoalbum : Bool?
-        var podcast : Bool?
-        var video : Bool?
+    public class Has{
+        public var sale : Bool?
+        public var discount : Bool?
+        public var child_pages : Bool?
+        public var news : Bool?
+        public var photoalbum : Bool?
+        public var podcast : Bool?
+        public var video : Bool?
         static func parse(rawJson: Dictionary<String,Any>)->Has{
             let model = Has()
             if let temp = rawJson["sale"] as? Bool{

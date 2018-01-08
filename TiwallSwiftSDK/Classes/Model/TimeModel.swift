@@ -6,9 +6,9 @@
 //
 
 import Foundation
-class TimeModel {
-    var text : String?
-    var list : [String]?
+public class TimeModel {
+    public var text : String?
+    public var list : [String]?
     static func parse(rawJson: Dictionary<String,Any>)->TimeModel{
         let model = TimeModel()
         if let temp = rawJson["text"] as? String{

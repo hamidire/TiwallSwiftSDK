@@ -6,13 +6,13 @@
 //
 
 import Foundation
-class VenueModel {
-    var id : Int?
-    var title : String?
-    var tel : String?
-    var address : String?
-    var location : LocationModel?
-    var channel_id : Int?
+public class VenueModel {
+    public var id : Int?
+    public var title : String?
+    public var tel : String?
+    public var address : String?
+    public var location : LocationModel?
+    public var channel_id : Int?
     static func parse(rawJson: Dictionary<String,Any>)->VenueModel{
         let model = VenueModel()
         if let temp = rawJson["id"] as? Int{

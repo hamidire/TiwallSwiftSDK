@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TiwallSwiftSDK'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'Tiwall Swift SDK.'
 
 # This description is used to generate tags and improve search results.

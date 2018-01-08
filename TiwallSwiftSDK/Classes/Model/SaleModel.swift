@@ -6,12 +6,12 @@
 //
 
 import Foundation
-class SaleModel {
-    var active : Bool?
-    var method : String?
-    var deliver_type : String?
-    var start_datetime : String?
-    var start_datetime_text : String?
+public class SaleModel {
+    public var active : Bool?
+    public var method : String?
+    public var deliver_type : String?
+    public var start_datetime : String?
+    public var start_datetime_text : String?
     static func parse(rawJson: Dictionary<String,Any>)->SaleModel{
         let model = SaleModel()
         if let temp = rawJson["active"] as? Bool{

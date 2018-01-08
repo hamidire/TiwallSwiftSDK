@@ -6,15 +6,15 @@
 //
 
 import Foundation
-class EventSpecModel: PageSpecModel{
-    var start_date : String?
-    var end_date : String?
-    var start_date_text : String?
-    var end_date_text : String?
-    var time : TimeModel?
-    var venue : VenueModel?
+public class EventSpecModel: PageSpecModel{
+    public var start_date : String?
+    public var end_date : String?
+    public var start_date_text : String?
+    public var end_date_text : String?
+    public var time : TimeModel?
+    public var venue : VenueModel?
     static func parse(rawJson: Dictionary<String,Any>)->EventSpecModel{
-        super.parseSpec(rawJson: rawJson)
+        print(super.parseSpec(rawJson: rawJson))
         let model = EventSpecModel()
         if let temp = rawJson["start_date"] as? String{
             model.start_date = temp

@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         print("hi")
         let temp = PageAgent()
         temp.getList(params: ["":""]) { (models, meta, err) in
-            print(models?.count)
+           
+//            print(models[0].pri)
+            
         }
 //        temp.request(url: "http://api.tiwall.com/v2/pages/categories?mode=ticket_store", type: RequestManager.ReqType.get, cacheFlag: false, completion: { (response, error) in
 //            print("ViewController:viewDidLoad:request")

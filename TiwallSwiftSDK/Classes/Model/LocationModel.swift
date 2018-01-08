@@ -6,10 +6,10 @@
 //
 
 import Foundation
-class LocationModel {
-    var latitude : Double?
-    var longitude : Double?
-    var latlong : String?
+public class LocationModel {
+    public var latitude : Double?
+    public var longitude : Double?
+    public var latlong : String?
     static func parse(rawJson: Dictionary<String,Any>)->LocationModel{
         let model = LocationModel()
         if let temp = rawJson["latitude"] as? Double{
