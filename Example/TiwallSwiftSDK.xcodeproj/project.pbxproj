@@ -15,6 +15,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		718F7E9B2000E2C500588B78 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 718F7E9A2000E2C500588B78 /* .gitignore */; };
+		99510E8A20075CA70040FEAD /* PageListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99510E8920075CA70040FEAD /* PageListTableViewController.swift */; };
+		99510E8E20075D000040FEAD /* PageListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99510E8D20075D000040FEAD /* PageListCell.swift */; };
+		99510E9020079C8A0040FEAD /* PageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99510E8F20079C8A0040FEAD /* PageDetailViewController.swift */; };
 		B725D2DDC18C78FEB1FF8FC5 /* Pods_TiwallSwiftSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341D0DB8FF04A4AA176BCC41 /* Pods_TiwallSwiftSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,9 @@
 		78B5F192C416D3AF274A9860 /* Pods-TiwallSwiftSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiwallSwiftSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiwallSwiftSDK_Tests/Pods-TiwallSwiftSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8410FD4AC23E7CA53712297C /* Pods-TiwallSwiftSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiwallSwiftSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TiwallSwiftSDK_Example/Pods-TiwallSwiftSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B51AB220F68B03C13C3E255 /* Pods_TiwallSwiftSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiwallSwiftSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99510E8920075CA70040FEAD /* PageListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListTableViewController.swift; sourceTree = "<group>"; };
+		99510E8D20075D000040FEAD /* PageListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListCell.swift; sourceTree = "<group>"; };
+		99510E8F20079C8A0040FEAD /* PageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDetailViewController.swift; sourceTree = "<group>"; };
 		9AA2111963DFB726F321C8F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FCC05ABACFFC0BBA6A23DB79 /* TiwallSwiftSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TiwallSwiftSDK.podspec; path = ../TiwallSwiftSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +108,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				99510E8920075CA70040FEAD /* PageListTableViewController.swift */,
+				99510E8D20075D000040FEAD /* PageListCell.swift */,
+				99510E8F20079C8A0040FEAD /* PageDetailViewController.swift */,
 			);
 			name = "Example for TiwallSwiftSDK";
 			path = TiwallSwiftSDK;
@@ -378,8 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99510E9020079C8A0040FEAD /* PageDetailViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				99510E8A20075CA70040FEAD /* PageListTableViewController.swift in Sources */,
+				99510E8E20075D000040FEAD /* PageListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

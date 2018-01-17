@@ -13,13 +13,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hi")
+        
         let temp = PageAgent()
         temp.getList(params: ["":""]) { (models, meta, err) in
-           
-//            print(models[0].pri)
+            if let temp = models {
+                if let tempSpec = temp[0].spec as? EventSpecModel{
+                }
+            }
             
         }
+
 //        temp.request(url: "http://api.tiwall.com/v2/pages/categories?mode=ticket_store", type: RequestManager.ReqType.get, cacheFlag: false, completion: { (response, error) in
 //            print("ViewController:viewDidLoad:request")
 //            print(response)

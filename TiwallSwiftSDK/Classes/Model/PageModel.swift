@@ -36,18 +36,6 @@ public class PageModel {
     public var spec : PageSpecModel?
     public var has : Has?
     public var sale : SaleModel?
-    public enum SaleMethod:String {
-        case event = "event"
-        case event_seat = "event_seat"
-        case product = "product"
-        case product_shipping = "product_shipping"
-        case free = "free"
-    }
-    public enum DeliverType : String {
-        case receipt = "receipt"
-        case ticket = "ticket"
-        case receipt_station = "receipt_station"
-    }
     public var subject : SubjectModel?
     public var image : ImageModel?
     public var cover : ImageModel?
@@ -86,9 +74,9 @@ public class PageModel {
             model.discount = Discount.parse(rawJson: temp)
         }
         if let temp = rawJson["spec"] as? Dictionary<String,Any>{
-            switch model.type{
-            case self.PageType.event? :
-                model.spec = EventSpecModel.parseSpec(rawJson: temp)
+            switch model.behavior{
+            case self.PageBehaviors.event? :
+                model.spec = EventSpecModel.parse(rawJson: temp)
             default :
                 model.spec = PageSpecModel.parseSpec(rawJson: temp)
             }
@@ -159,7 +147,6 @@ public class PageModel {
             return model
         }
     }
-    
     public class Has{
         public var sale : Bool?
         public var discount : Bool?
@@ -193,8 +180,5 @@ public class PageModel {
             }
             return model
         }
-        
     }
-    
-    
 }
