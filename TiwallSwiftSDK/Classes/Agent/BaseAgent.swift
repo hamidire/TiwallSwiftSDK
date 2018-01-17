@@ -23,7 +23,7 @@ public class BaseAgent {
             if let keys = arrayKes,let values = arrayValues{
                 url = url + "?"
                 for index in 0...keys.count-1 {
-                    url = "\(url)\(keys[index])=\(values[index])"
+                    url = "\(url)\(keys[index])=\(values[index])&"
                 }
             }
             return url

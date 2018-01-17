@@ -13,14 +13,18 @@ public class RequestManager {
     }
     public init() {
     }
-    public func request(url: String, type: ReqType, cacheFlag : Bool, completion : @escaping (_ response : Any?, _ error: String?)->()){
+    public func request(url: String, type: ReqType, cacheFlag : Bool, completion : @escaping (_ response : ResponseModel?,_ error : ErrorModel?)->()){
         let cm = CacheManager()
         if !cacheFlag || !cm.validate(url: url) {
             let ca = CloudAgent()
             if type == ReqType.get{
                 ca.get(url: url, completion: { (response, error) in
-                    print("RequestManager:request:start:")
-                    completion(response,error)
+                    if let temp = response as? Dictionary<String,Any>{
+                        let model = ResponseModel.parse(rawJson: temp)
+                        completion(model, nil)
+                    }else{
+                        completion(nil, ErrorModel(code: 0, message: "error in RequestManager:request", errors: nil))
+                    }
                 })
             }else if type == ReqType.post{
                 //TODO 
